@@ -43,7 +43,7 @@ func div(dividend, divisor int) int {
 	return stageRes + div(dividend - nextDivisor, divisor)
 }
 
-func main() {
+func Main() {
 	dividend := 0
 	fmt.Scan(&dividend)
 
